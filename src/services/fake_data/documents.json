@@ -1,0 +1,204 @@
+{
+  "documents": [
+    {
+      "id": "doc-1",
+      "title": "Healthcare Market Analysis Report 2022",
+      "creationDate": "2022-06-28T00:00:00.000Z",
+      "industry": "Healthcare",
+      "region": "Middle East",
+      "clientName": "Barclays",
+      "fileType": "PDF",
+      "hits": 33
+    },
+    {
+      "id": "doc-2",
+      "title": "Healthcare Risk Assessment 2022",
+      "creationDate": "2022-03-25T00:00:00.000Z",
+      "industry": "Healthcare",
+      "region": "Africa",
+      "clientName": "Deutsche Bank",
+      "fileType": "XLSX",
+      "hits": 41
+    },
+    {
+      "id": "doc-3",
+      "title": "Healthcare Competitive Intelligence 2022",
+      "creationDate": "2022-08-27T00:00:00.000Z",
+      "industry": "Healthcare",
+      "region": "Latin America",
+      "clientName": "Deutsche Bank",
+      "fileType": "XLSX",
+      "hits": 44
+    },
+    {
+      "id": "doc-4",
+      "title": "Real Estate Industry Outlook 2022",
+      "creationDate": "2022-04-03T00:00:00.000Z",
+      "industry": "Real Estate",
+      "region": "Asia Pacific",
+      "clientName": "Goldman Sachs",
+      "fileType": "PPTX",
+      "hits": 81
+    },
+    {
+      "id": "doc-5",
+      "title": "Consumer Goods Growth Opportunities 2022",
+      "creationDate": "2022-09-16T00:00:00.000Z",
+      "industry": "Consumer Goods",
+      "region": "Europe",
+      "clientName": "Barclays",
+      "fileType": "PDF",
+      "hits": 11
+    },
+    {
+      "id": "doc-6",
+      "title": "Retail Due Diligence Report 2022",
+      "creationDate": "2022-12-15T00:00:00.000Z",
+      "industry": "Retail",
+      "region": "Latin America",
+      "clientName": "UBS",
+      "fileType": "DOCX",
+      "hits": 51
+    },
+    {
+      "id": "doc-7",
+      "title": "Consumer Goods Financial Analysis 2023",
+      "creationDate": "2023-06-14T00:00:00.000Z",
+      "industry": "Consumer Goods",
+      "region": "Africa",
+      "clientName": "Barclays",
+      "fileType": "XLSX",
+      "hits": 41
+    },
+    {
+      "id": "doc-8",
+      "title": "Energy Due Diligence Report 2023",
+      "creationDate": "2023-02-04T00:00:00.000Z",
+      "industry": "Energy",
+      "region": "North America",
+      "clientName": "Credit Suisse",
+      "fileType": "XLSX",
+      "hits": 47
+    },
+    {
+      "id": "doc-9",
+      "title": "Technology Industry Outlook 2023",
+      "creationDate": "2023-02-02T00:00:00.000Z",
+      "industry": "Technology",
+      "region": "North America",
+      "clientName": "JP Morgan",
+      "fileType": "DOCX",
+      "hits": 42
+    },
+    {
+      "id": "doc-10",
+      "title": "Real Estate Competitive Intelligence 2023",
+      "creationDate": "2023-03-05T00:00:00.000Z",
+      "industry": "Real Estate",
+      "region": "Europe",
+      "clientName": "Citigroup",
+      "fileType": "PDF",
+      "hits": 20
+    },
+    {
+      "id": "doc-11",
+      "title": "Financial Services Due Diligence Report 2023",
+      "creationDate": "2023-12-01T00:00:00.000Z",
+      "industry": "Financial Services",
+      "region": "Africa",
+      "clientName": "Citigroup",
+      "fileType": "PPTX",
+      "hits": 55
+    },
+    {
+      "id": "doc-12",
+      "title": "Retail Growth Opportunities 2023",
+      "creationDate": "2023-02-26T00:00:00.000Z",
+      "industry": "Retail",
+      "region": "Middle East",
+      "clientName": "JP Morgan",
+      "fileType": "DOCX",
+      "hits": 50
+    },
+    {
+      "id": "doc-13",
+      "title": "Real Estate Strategic Review 2023",
+      "creationDate": "2023-10-21T00:00:00.000Z",
+      "industry": "Real Estate",
+      "region": "Africa",
+      "clientName": "Bank of America",
+      "fileType": "PPTX",
+      "hits": 13
+    },
+    {
+      "id": "doc-14",
+      "title": "Financial Services Risk Assessment 2024",
+      "creationDate": "2024-11-19T00:00:00.000Z",
+      "industry": "Financial Services",
+      "region": "North America",
+      "clientName": "Credit Suisse",
+      "fileType": "XLSX",
+      "hits": 73
+    },
+    {
+      "id": "doc-15",
+      "title": "Manufacturing Market Analysis Report 2024",
+      "creationDate": "2024-01-25T00:00:00.000Z",
+      "industry": "Manufacturing",
+      "region": "Africa",
+      "clientName": "Deutsche Bank",
+      "fileType": "DOCX",
+      "hits": 13
+    },
+    {
+      "id": "doc-16",
+      "title": "Automotive Growth Opportunities 2024",
+      "creationDate": "2024-08-07T00:00:00.000Z",
+      "industry": "Automotive",
+      "region": "Africa",
+      "clientName": "Morgan Stanley",
+      "fileType": "PPTX",
+      "hits": 86
+    },
+    {
+      "id": "doc-17",
+      "title": "Manufacturing Growth Opportunities 2024",
+      "creationDate": "2024-05-09T00:00:00.000Z",
+      "industry": "Manufacturing",
+      "region": "North America",
+      "clientName": "Citigroup",
+      "fileType": "PDF",
+      "hits": 34
+    },
+    {
+      "id": "doc-18",
+      "title": "Telecommunications Industry Outlook 2024",
+      "creationDate": "2024-07-23T00:00:00.000Z",
+      "industry": "Telecommunications",
+      "region": "North America",
+      "clientName": "Credit Suisse",
+      "fileType": "DOCX",
+      "hits": 19
+    },
+    {
+      "id": "doc-19",
+      "title": "Real Estate Investment Strategy 2024",
+      "creationDate": "2024-12-15T00:00:00.000Z",
+      "industry": "Real Estate",
+      "region": "Middle East",
+      "clientName": "Deutsche Bank",
+      "fileType": "XLSX",
+      "hits": 19
+    },
+    {
+      "id": "doc-20",
+      "title": "Automotive Competitive Intelligence 2024",
+      "creationDate": "2024-10-23T00:00:00.000Z",
+      "industry": "Automotive",
+      "region": "Europe",
+      "clientName": "Goldman Sachs",
+      "fileType": "PDF",
+      "hits": 70
+    }
+  ]
+}

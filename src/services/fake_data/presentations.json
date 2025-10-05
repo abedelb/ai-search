@@ -1,0 +1,934 @@
+{
+  "presentations": [
+    {
+      "id": "doc-1",
+      "title": "Healthcare Market Analysis Report 2022",
+      "metadata": {
+        "clientName": "Barclays",
+        "industry": "Healthcare",
+        "region": "Middle East",
+        "creationDate": "2022-06-28T00:00:00.000Z"
+      },
+      "slides": [
+        {
+          "id": "slide-1",
+          "slideNumber": 1,
+          "title": "Financial Services Financial Performance - 2023",
+          "previewUrl": "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-2",
+          "slideNumber": 2,
+          "title": "Financial Services Risk Assessment - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-3",
+          "slideNumber": 3,
+          "title": "Financial Services Financial Performance - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-4",
+          "slideNumber": 4,
+          "title": "Financial Services Risk Assessment - 2023",
+          "previewUrl": "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-5",
+          "slideNumber": 5,
+          "title": "Financial Services Market Overview - 2023",
+          "previewUrl": "https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-6",
+          "slideNumber": 6,
+          "title": "Financial Services Investment Thesis - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-7",
+          "slideNumber": 7,
+          "title": "Financial Services Financial Performance - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-8",
+          "slideNumber": 8,
+          "title": "Financial Services Valuation Framework - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-9",
+          "slideNumber": 9,
+          "title": "Financial Services Competitive Landscape - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-10",
+          "slideNumber": 10,
+          "title": "Financial Services Market Trends - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-11",
+          "slideNumber": 11,
+          "title": "Financial Services M&A Analysis - 2023",
+          "previewUrl": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-12",
+          "slideNumber": 12,
+          "title": "Financial Services Growth Strategy - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-13",
+          "slideNumber": 13,
+          "title": "Financial Services Financial Performance - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-14",
+          "slideNumber": 14,
+          "title": "Financial Services Growth Strategy - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-15",
+          "slideNumber": 15,
+          "title": "Financial Services Financial Performance - 2023",
+          "previewUrl": "https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        }
+      ]
+    },
+    {
+      "id": "doc-2",
+      "title": "Healthcare Risk Assessment 2022",
+      "metadata": {
+        "clientName": "Deutsche Bank",
+        "industry": "Healthcare",
+        "region": "Africa",
+        "creationDate": "2022-03-25T00:00:00.000Z"
+      },
+      "slides": [
+        {
+          "id": "slide-16",
+          "slideNumber": 1,
+          "title": "Technology Strategic Initiative - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-17",
+          "slideNumber": 2,
+          "title": "Technology Financial Performance - 2023",
+          "previewUrl": "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-18",
+          "slideNumber": 3,
+          "title": "Technology Strategic Initiative - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-19",
+          "slideNumber": 4,
+          "title": "Technology Market Trends - 2023",
+          "previewUrl": "https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-20",
+          "slideNumber": 5,
+          "title": "Technology Market Trends - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-21",
+          "slideNumber": 6,
+          "title": "Technology Valuation Framework - 2023",
+          "previewUrl": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-22",
+          "slideNumber": 7,
+          "title": "Technology Investment Thesis - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-23",
+          "slideNumber": 8,
+          "title": "Technology Financial Performance - 2023",
+          "previewUrl": "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-24",
+          "slideNumber": 9,
+          "title": "Technology Investment Thesis - 2023",
+          "previewUrl": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-25",
+          "slideNumber": 10,
+          "title": "Technology Investment Thesis - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-26",
+          "slideNumber": 11,
+          "title": "Technology Strategic Initiative - 2023",
+          "previewUrl": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-27",
+          "slideNumber": 12,
+          "title": "Technology M&A Analysis - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        }
+      ]
+    },
+    {
+      "id": "doc-3",
+      "title": "Healthcare Competitive Intelligence 2022",
+      "metadata": {
+        "clientName": "Deutsche Bank",
+        "industry": "Healthcare",
+        "region": "Latin America",
+        "creationDate": "2022-08-27T00:00:00.000Z"
+      },
+      "slides": [
+        {
+          "id": "slide-28",
+          "slideNumber": 1,
+          "title": "Technology Financial Performance - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-29",
+          "slideNumber": 2,
+          "title": "Technology Financial Performance - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-30",
+          "slideNumber": 3,
+          "title": "Technology Market Trends - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-31",
+          "slideNumber": 4,
+          "title": "Technology Risk Assessment - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-32",
+          "slideNumber": 5,
+          "title": "Technology Growth Strategy - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-33",
+          "slideNumber": 6,
+          "title": "Technology Growth Strategy - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-34",
+          "slideNumber": 7,
+          "title": "Technology Investment Thesis - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-35",
+          "slideNumber": 8,
+          "title": "Technology Risk Assessment - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        }
+      ]
+    },
+    {
+      "id": "doc-4",
+      "title": "Real Estate Industry Outlook 2022",
+      "metadata": {
+        "clientName": "Goldman Sachs",
+        "industry": "Real Estate",
+        "region": "Asia Pacific",
+        "creationDate": "2022-04-03T00:00:00.000Z"
+      },
+      "slides": [
+        {
+          "id": "slide-36",
+          "slideNumber": 1,
+          "title": "Retail Investment Thesis - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-37",
+          "slideNumber": 2,
+          "title": "Retail Market Trends - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-38",
+          "slideNumber": 3,
+          "title": "Retail Investment Thesis - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-39",
+          "slideNumber": 4,
+          "title": "Retail Strategic Initiative - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-40",
+          "slideNumber": 5,
+          "title": "Retail M&A Analysis - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-41",
+          "slideNumber": 6,
+          "title": "Retail M&A Analysis - 2023",
+          "previewUrl": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-42",
+          "slideNumber": 7,
+          "title": "Retail M&A Analysis - 2023",
+          "previewUrl": "https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-43",
+          "slideNumber": 8,
+          "title": "Retail Investment Thesis - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-44",
+          "slideNumber": 9,
+          "title": "Retail Growth Strategy - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-45",
+          "slideNumber": 10,
+          "title": "Retail Investment Thesis - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-46",
+          "slideNumber": 11,
+          "title": "Retail Investment Thesis - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-47",
+          "slideNumber": 12,
+          "title": "Retail Strategic Initiative - 2023",
+          "previewUrl": "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-48",
+          "slideNumber": 13,
+          "title": "Retail Market Overview - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-49",
+          "slideNumber": 14,
+          "title": "Retail M&A Analysis - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-50",
+          "slideNumber": 15,
+          "title": "Retail Market Trends - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-51",
+          "slideNumber": 16,
+          "title": "Retail Competitive Landscape - 2023",
+          "previewUrl": "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-52",
+          "slideNumber": 17,
+          "title": "Retail Risk Assessment - 2023",
+          "previewUrl": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-53",
+          "slideNumber": 18,
+          "title": "Retail Market Trends - 2023",
+          "previewUrl": "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-54",
+          "slideNumber": 19,
+          "title": "Retail Market Trends - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-55",
+          "slideNumber": 20,
+          "title": "Retail M&A Analysis - 2023",
+          "previewUrl": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        }
+      ]
+    },
+    {
+      "id": "doc-5",
+      "title": "Consumer Goods Growth Opportunities 2022",
+      "metadata": {
+        "clientName": "Barclays",
+        "industry": "Consumer Goods",
+        "region": "Europe",
+        "creationDate": "2022-09-16T00:00:00.000Z"
+      },
+      "slides": [
+        {
+          "id": "slide-56",
+          "slideNumber": 1,
+          "title": "Energy Growth Strategy - 2023",
+          "previewUrl": "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-57",
+          "slideNumber": 2,
+          "title": "Energy Strategic Initiative - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-58",
+          "slideNumber": 3,
+          "title": "Energy Market Overview - 2023",
+          "previewUrl": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-59",
+          "slideNumber": 4,
+          "title": "Energy Risk Assessment - 2023",
+          "previewUrl": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-60",
+          "slideNumber": 5,
+          "title": "Energy Financial Performance - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-61",
+          "slideNumber": 6,
+          "title": "Energy Competitive Landscape - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-62",
+          "slideNumber": 7,
+          "title": "Energy Investment Thesis - 2023",
+          "previewUrl": "https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-63",
+          "slideNumber": 8,
+          "title": "Energy Market Trends - 2023",
+          "previewUrl": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-64",
+          "slideNumber": 9,
+          "title": "Energy Growth Strategy - 2023",
+          "previewUrl": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-65",
+          "slideNumber": 10,
+          "title": "Energy Valuation Framework - 2023",
+          "previewUrl": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        }
+      ]
+    },
+    {
+      "id": "doc-6",
+      "title": "Retail Due Diligence Report 2022",
+      "metadata": {
+        "clientName": "UBS",
+        "industry": "Retail",
+        "region": "Latin America",
+        "creationDate": "2022-12-15T00:00:00.000Z"
+      },
+      "slides": [
+        {
+          "id": "slide-66",
+          "slideNumber": 1,
+          "title": "Manufacturing Strategic Initiative - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-67",
+          "slideNumber": 2,
+          "title": "Manufacturing Valuation Framework - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-68",
+          "slideNumber": 3,
+          "title": "Manufacturing Strategic Initiative - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-69",
+          "slideNumber": 4,
+          "title": "Manufacturing Financial Performance - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-70",
+          "slideNumber": 5,
+          "title": "Manufacturing Market Overview - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-71",
+          "slideNumber": 6,
+          "title": "Manufacturing M&A Analysis - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-72",
+          "slideNumber": 7,
+          "title": "Manufacturing Competitive Landscape - 2024",
+          "previewUrl": "https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-73",
+          "slideNumber": 8,
+          "title": "Manufacturing M&A Analysis - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-74",
+          "slideNumber": 9,
+          "title": "Manufacturing Risk Assessment - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-75",
+          "slideNumber": 10,
+          "title": "Manufacturing Investment Thesis - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-76",
+          "slideNumber": 11,
+          "title": "Manufacturing Market Overview - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-77",
+          "slideNumber": 12,
+          "title": "Manufacturing M&A Analysis - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-78",
+          "slideNumber": 13,
+          "title": "Manufacturing Valuation Framework - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-79",
+          "slideNumber": 14,
+          "title": "Manufacturing Market Trends - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-80",
+          "slideNumber": 15,
+          "title": "Manufacturing M&A Analysis - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-81",
+          "slideNumber": 16,
+          "title": "Manufacturing Market Trends - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-82",
+          "slideNumber": 17,
+          "title": "Manufacturing Strategic Initiative - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-83",
+          "slideNumber": 18,
+          "title": "Manufacturing Investment Thesis - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        }
+      ]
+    },
+    {
+      "id": "doc-7",
+      "title": "Consumer Goods Financial Analysis 2023",
+      "metadata": {
+        "clientName": "Barclays",
+        "industry": "Consumer Goods",
+        "region": "Africa",
+        "creationDate": "2023-06-14T00:00:00.000Z"
+      },
+      "slides": [
+        {
+          "id": "slide-84",
+          "slideNumber": 1,
+          "title": "Real Estate Competitive Landscape - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-85",
+          "slideNumber": 2,
+          "title": "Real Estate Growth Strategy - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-86",
+          "slideNumber": 3,
+          "title": "Real Estate Competitive Landscape - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-87",
+          "slideNumber": 4,
+          "title": "Real Estate M&A Analysis - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-88",
+          "slideNumber": 5,
+          "title": "Real Estate Strategic Initiative - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-89",
+          "slideNumber": 6,
+          "title": "Real Estate Financial Performance - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-90",
+          "slideNumber": 7,
+          "title": "Real Estate Growth Strategy - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-91",
+          "slideNumber": 8,
+          "title": "Real Estate Risk Assessment - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-92",
+          "slideNumber": 9,
+          "title": "Real Estate Competitive Landscape - 2024",
+          "previewUrl": "https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-93",
+          "slideNumber": 10,
+          "title": "Real Estate Risk Assessment - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-94",
+          "slideNumber": 11,
+          "title": "Real Estate Investment Thesis - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-95",
+          "slideNumber": 12,
+          "title": "Real Estate Growth Strategy - 2024",
+          "previewUrl": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-96",
+          "slideNumber": 13,
+          "title": "Real Estate M&A Analysis - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-97",
+          "slideNumber": 14,
+          "title": "Real Estate M&A Analysis - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        }
+      ]
+    },
+    {
+      "id": "doc-8",
+      "title": "Energy Due Diligence Report 2023",
+      "metadata": {
+        "clientName": "Credit Suisse",
+        "industry": "Energy",
+        "region": "North America",
+        "creationDate": "2023-02-04T00:00:00.000Z"
+      },
+      "slides": [
+        {
+          "id": "slide-98",
+          "slideNumber": 1,
+          "title": "Automotive Competitive Landscape - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-99",
+          "slideNumber": 2,
+          "title": "Automotive Financial Performance - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-100",
+          "slideNumber": 3,
+          "title": "Automotive Valuation Framework - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-101",
+          "slideNumber": 4,
+          "title": "Automotive Competitive Landscape - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-102",
+          "slideNumber": 5,
+          "title": "Automotive Market Overview - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-103",
+          "slideNumber": 6,
+          "title": "Automotive Risk Assessment - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-104",
+          "slideNumber": 7,
+          "title": "Automotive Growth Strategy - 2024",
+          "previewUrl": "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-105",
+          "slideNumber": 8,
+          "title": "Automotive M&A Analysis - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-106",
+          "slideNumber": 9,
+          "title": "Automotive Market Trends - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-107",
+          "slideNumber": 10,
+          "title": "Automotive Market Overview - 2024",
+          "previewUrl": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-108",
+          "slideNumber": 11,
+          "title": "Automotive Growth Strategy - 2024",
+          "previewUrl": "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-109",
+          "slideNumber": 12,
+          "title": "Automotive Market Trends - 2024",
+          "previewUrl": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-110",
+          "slideNumber": 13,
+          "title": "Automotive Financial Performance - 2024",
+          "previewUrl": "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-111",
+          "slideNumber": 14,
+          "title": "Automotive Competitive Landscape - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-112",
+          "slideNumber": 15,
+          "title": "Automotive Market Overview - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-113",
+          "slideNumber": 16,
+          "title": "Automotive Market Trends - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        }
+      ]
+    },
+    {
+      "id": "doc-9",
+      "title": "Technology Industry Outlook 2023",
+      "metadata": {
+        "clientName": "JP Morgan",
+        "industry": "Technology",
+        "region": "North America",
+        "creationDate": "2023-02-02T00:00:00.000Z"
+      },
+      "slides": [
+        {
+          "id": "slide-114",
+          "slideNumber": 1,
+          "title": "Real Estate Competitive Landscape - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-115",
+          "slideNumber": 2,
+          "title": "Real Estate Risk Assessment - 2024",
+          "previewUrl": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-116",
+          "slideNumber": 3,
+          "title": "Real Estate M&A Analysis - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-117",
+          "slideNumber": 4,
+          "title": "Real Estate Risk Assessment - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-118",
+          "slideNumber": 5,
+          "title": "Real Estate Financial Performance - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-119",
+          "slideNumber": 6,
+          "title": "Real Estate Risk Assessment - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-120",
+          "slideNumber": 7,
+          "title": "Real Estate Competitive Landscape - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-121",
+          "slideNumber": 8,
+          "title": "Real Estate Risk Assessment - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-122",
+          "slideNumber": 9,
+          "title": "Real Estate Financial Performance - 2024",
+          "previewUrl": "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        }
+      ]
+    },
+    {
+      "id": "doc-10",
+      "title": "Real Estate Competitive Intelligence 2023",
+      "metadata": {
+        "clientName": "Citigroup",
+        "industry": "Real Estate",
+        "region": "Europe",
+        "creationDate": "2023-03-05T00:00:00.000Z"
+      },
+      "slides": [
+        {
+          "id": "slide-123",
+          "slideNumber": 1,
+          "title": "Manufacturing Market Trends - 2024",
+          "previewUrl": "https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-124",
+          "slideNumber": 2,
+          "title": "Manufacturing Valuation Framework - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-125",
+          "slideNumber": 3,
+          "title": "Manufacturing Risk Assessment - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-126",
+          "slideNumber": 4,
+          "title": "Manufacturing Valuation Framework - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-127",
+          "slideNumber": 5,
+          "title": "Manufacturing Competitive Landscape - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-128",
+          "slideNumber": 6,
+          "title": "Manufacturing Competitive Landscape - 2024",
+          "previewUrl": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-129",
+          "slideNumber": 7,
+          "title": "Manufacturing M&A Analysis - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-130",
+          "slideNumber": 8,
+          "title": "Manufacturing Strategic Initiative - 2024",
+          "previewUrl": "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-131",
+          "slideNumber": 9,
+          "title": "Manufacturing Growth Strategy - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-132",
+          "slideNumber": 10,
+          "title": "Manufacturing M&A Analysis - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-133",
+          "slideNumber": 11,
+          "title": "Manufacturing Competitive Landscape - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-134",
+          "slideNumber": 12,
+          "title": "Manufacturing Strategic Initiative - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        },
+        {
+          "id": "slide-135",
+          "slideNumber": 13,
+          "title": "Manufacturing Risk Assessment - 2024",
+          "previewUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300"
+        }
+      ]
+    }
+  ]
+}

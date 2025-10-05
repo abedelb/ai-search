@@ -1,0 +1,48 @@
+{
+  "responses": [
+    {
+      "id": "response-1",
+      "content": "Based on recent M&A activity in the technology sector, valuations have shown a 15-20% premium compared to Q4 2023. Key drivers include strong revenue growth and market consolidation trends.",
+      "slides": [
+        {
+          "id": "slide-1",
+          "documentId": "doc-1",
+          "slideNumber": 1
+        }
+      ]
+    },
+    {
+      "id": "response-2",
+      "content": "The healthcare sector has experienced significant consolidation, with an average deal size increase of 25% year-over-year. Strategic buyers are focusing on specialty pharma and med-tech assets.",
+      "slides": [
+        {
+          "id": "slide-2",
+          "documentId": "doc-1",
+          "slideNumber": 2
+        }
+      ]
+    },
+    {
+      "id": "response-3",
+      "content": "Financial services M&A activity indicates a shift towards digital banking acquisitions. Cross-border deals represent 40% of total transaction volume, with Asia Pacific leading in deal count.",
+      "slides": [
+        {
+          "id": "slide-3",
+          "documentId": "doc-1",
+          "slideNumber": 3
+        }
+      ]
+    },
+    {
+      "id": "response-4",
+      "content": "Energy sector transactions show increased focus on renewable assets, with clean energy deals accounting for 35% of total sector volume. Traditional oil & gas assets face valuation pressure.",
+      "slides": [
+        {
+          "id": "slide-4",
+          "documentId": "doc-1",
+          "slideNumber": 4
+        }
+      ]
+    }
+  ]
+}
