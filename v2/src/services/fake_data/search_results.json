@@ -1,0 +1,323 @@
+{
+  "documents": [
+    {
+      "id": "doc-1",
+      "title": "Healthcare Market Analysis Report 2022",
+      "pptxUrl": "/mock_documents/healthcare-market-analysis-2022.pptx",
+      "metadata": {
+        "clientName": "Barclays",
+        "industry": "Healthcare",
+        "region": "Middle East",
+        "creationDate": "2022-06-28T00:00:00.000Z",
+        "fileType": "PPTX"
+      },
+      "slides": [
+        {
+          "slideNumber": 1,
+          "title": "Healthcare Market Overview - 2022",
+          "relevanceScore": 0.95,
+          "tags": ["Market Analysis", "Healthcare"]
+        },
+        {
+          "slideNumber": 2,
+          "title": "Healthcare Market Growth Trends",
+          "relevanceScore": 0.92,
+          "tags": ["Growth", "Market Analysis"]
+        },
+        {
+          "slideNumber": 3,
+          "title": "Healthcare Competitive Landscape",
+          "relevanceScore": 0.88,
+          "tags": ["Competitive Analysis", "Strategy"]
+        },
+        {
+          "slideNumber": 4,
+          "title": "Healthcare Regional Analysis",
+          "relevanceScore": 0.85,
+          "tags": ["Regional Analysis"]
+        },
+        {
+          "slideNumber": 5,
+          "title": "Healthcare Investment Opportunities",
+          "relevanceScore": 0.82,
+          "tags": ["Investment", "Strategy"]
+        }
+      ]
+    },
+    {
+      "id": "doc-2",
+      "title": "Healthcare Risk Assessment 2022",
+      "pptxUrl": "/mock_documents/healthcare-risk-assessment-2022.pptx",
+      "metadata": {
+        "clientName": "Deutsche Bank",
+        "industry": "Healthcare",
+        "region": "Africa",
+        "creationDate": "2022-03-25T00:00:00.000Z",
+        "fileType": "PPTX"
+      },
+      "slides": [
+        {
+          "slideNumber": 1,
+          "title": "Healthcare Risk Assessment Overview",
+          "relevanceScore": 0.94,
+          "tags": ["Risk Management", "Healthcare"]
+        },
+        {
+          "slideNumber": 2,
+          "title": "Healthcare Regulatory Risks",
+          "relevanceScore": 0.90,
+          "tags": ["Risk Management", "Compliance"]
+        },
+        {
+          "slideNumber": 3,
+          "title": "Healthcare Market Risks",
+          "relevanceScore": 0.87,
+          "tags": ["Risk Management", "Market Analysis"]
+        }
+      ]
+    },
+    {
+      "id": "doc-3",
+      "title": "Healthcare Competitive Intelligence 2022",
+      "pptxUrl": "/mock_documents/healthcare-competitive-intelligence-2022.pptx",
+      "metadata": {
+        "clientName": "Deutsche Bank",
+        "industry": "Healthcare",
+        "region": "Latin America",
+        "creationDate": "2022-08-27T00:00:00.000Z",
+        "fileType": "PPTX"
+      },
+      "slides": [
+        {
+          "slideNumber": 1,
+          "title": "Healthcare Competitive Intelligence Overview",
+          "relevanceScore": 0.93,
+          "tags": ["Competitive Analysis", "Healthcare"]
+        },
+        {
+          "slideNumber": 2,
+          "title": "Healthcare Market Share Analysis",
+          "relevanceScore": 0.89,
+          "tags": ["Market Analysis", "Competitive Analysis"]
+        }
+      ]
+    },
+    {
+      "id": "doc-4",
+      "title": "Technology Sector Outlook 2023",
+      "pptxUrl": "/mock_documents/technology-outlook-2023.pptx",
+      "metadata": {
+        "clientName": "Goldman Sachs",
+        "industry": "Technology",
+        "region": "North America",
+        "creationDate": "2023-01-15T00:00:00.000Z",
+        "fileType": "PPTX"
+      },
+      "slides": [
+        {
+          "slideNumber": 1,
+          "title": "Technology Sector Overview 2023",
+          "relevanceScore": 0.96,
+          "tags": ["Technology", "Market Overview"]
+        },
+        {
+          "slideNumber": 2,
+          "title": "Technology Growth Drivers",
+          "relevanceScore": 0.91,
+          "tags": ["Technology", "Growth"]
+        },
+        {
+          "slideNumber": 3,
+          "title": "Technology AI & Cloud Trends",
+          "relevanceScore": 0.88,
+          "tags": ["Technology", "Innovation"]
+        },
+        {
+          "slideNumber": 4,
+          "title": "Technology Investment Thesis",
+          "relevanceScore": 0.84,
+          "tags": ["Technology", "Investment"]
+        }
+      ]
+    },
+    {
+      "id": "doc-5",
+      "title": "Real Estate Market Outlook 2022",
+      "pptxUrl": "/mock_documents/real-estate-outlook-2022.pptx",
+      "metadata": {
+        "clientName": "JP Morgan",
+        "industry": "Real Estate",
+        "region": "Asia Pacific",
+        "creationDate": "2022-09-10T00:00:00.000Z",
+        "fileType": "PPTX"
+      },
+      "slides": [
+        {
+          "slideNumber": 1,
+          "title": "Real Estate Market Overview",
+          "relevanceScore": 0.92,
+          "tags": ["Real Estate", "Market Overview"]
+        },
+        {
+          "slideNumber": 2,
+          "title": "Real Estate Regional Trends",
+          "relevanceScore": 0.87,
+          "tags": ["Real Estate", "Regional Analysis"]
+        },
+        {
+          "slideNumber": 3,
+          "title": "Real Estate Investment Opportunities",
+          "relevanceScore": 0.83,
+          "tags": ["Real Estate", "Investment"]
+        }
+      ]
+    },
+    {
+      "id": "doc-6",
+      "title": "Real Estate Competitive Analysis 2023",
+      "pptxUrl": "/mock_documents/real-estate-competitive-2023.pptx",
+      "metadata": {
+        "clientName": "Morgan Stanley",
+        "industry": "Real Estate",
+        "region": "Europe",
+        "creationDate": "2023-02-20T00:00:00.000Z",
+        "fileType": "PPTX"
+      },
+      "slides": [
+        {
+          "slideNumber": 1,
+          "title": "Real Estate Competitive Landscape",
+          "relevanceScore": 0.90,
+          "tags": ["Real Estate", "Competitive Analysis"]
+        },
+        {
+          "slideNumber": 2,
+          "title": "Real Estate Market Share",
+          "relevanceScore": 0.85,
+          "tags": ["Real Estate", "Market Analysis"]
+        }
+      ]
+    },
+    {
+      "id": "doc-7",
+      "title": "Energy Sector Due Diligence 2023",
+      "pptxUrl": "/mock_documents/energy-due-diligence-2023.pptx",
+      "metadata": {
+        "clientName": "Citigroup",
+        "industry": "Energy",
+        "region": "North America",
+        "creationDate": "2023-04-05T00:00:00.000Z",
+        "fileType": "PPTX"
+      },
+      "slides": [
+        {
+          "slideNumber": 1,
+          "title": "Energy Sector Due Diligence Overview",
+          "relevanceScore": 0.93,
+          "tags": ["Energy", "Due Diligence"]
+        },
+        {
+          "slideNumber": 2,
+          "title": "Energy Renewable Trends",
+          "relevanceScore": 0.89,
+          "tags": ["Energy", "Sustainability"]
+        },
+        {
+          "slideNumber": 3,
+          "title": "Energy Financial Performance",
+          "relevanceScore": 0.86,
+          "tags": ["Energy", "Financial Performance"]
+        }
+      ]
+    },
+    {
+      "id": "doc-8",
+      "title": "Consumer Goods Financial Analysis 2023",
+      "pptxUrl": "/mock_documents/consumer-goods-financial-2023.pptx",
+      "metadata": {
+        "clientName": "Credit Suisse",
+        "industry": "Consumer Goods",
+        "region": "Europe",
+        "creationDate": "2023-05-12T00:00:00.000Z",
+        "fileType": "PPTX"
+      },
+      "slides": [
+        {
+          "slideNumber": 1,
+          "title": "Consumer Goods Financial Overview",
+          "relevanceScore": 0.91,
+          "tags": ["Consumer Goods", "Financial Analysis"]
+        },
+        {
+          "slideNumber": 2,
+          "title": "Consumer Goods Revenue Analysis",
+          "relevanceScore": 0.87,
+          "tags": ["Consumer Goods", "Revenue"]
+        }
+      ]
+    },
+    {
+      "id": "doc-9",
+      "title": "Consumer Goods Growth Strategy 2022",
+      "pptxUrl": "/mock_documents/consumer-goods-growth-2022.pptx",
+      "metadata": {
+        "clientName": "UBS",
+        "industry": "Consumer Goods",
+        "region": "Asia Pacific",
+        "creationDate": "2022-11-08T00:00:00.000Z",
+        "fileType": "PPTX"
+      },
+      "slides": [
+        {
+          "slideNumber": 1,
+          "title": "Consumer Goods Growth Strategy",
+          "relevanceScore": 0.94,
+          "tags": ["Consumer Goods", "Growth", "Strategy"]
+        },
+        {
+          "slideNumber": 2,
+          "title": "Consumer Goods Market Expansion",
+          "relevanceScore": 0.88,
+          "tags": ["Consumer Goods", "Growth"]
+        }
+      ]
+    },
+    {
+      "id": "doc-10",
+      "title": "Retail Due Diligence Report 2022",
+      "pptxUrl": "/mock_documents/retail-due-diligence-2022.pptx",
+      "metadata": {
+        "clientName": "HSBC",
+        "industry": "Retail",
+        "region": "Europe",
+        "creationDate": "2022-07-14T00:00:00.000Z",
+        "fileType": "PPTX"
+      },
+      "slides": [
+        {
+          "slideNumber": 1,
+          "title": "Retail Due Diligence Overview",
+          "relevanceScore": 0.92,
+          "tags": ["Retail", "Due Diligence"]
+        },
+        {
+          "slideNumber": 2,
+          "title": "Retail E-commerce Trends",
+          "relevanceScore": 0.88,
+          "tags": ["Retail", "E-commerce"]
+        },
+        {
+          "slideNumber": 3,
+          "title": "Retail Financial Performance",
+          "relevanceScore": 0.84,
+          "tags": ["Retail", "Financial Performance"]
+        }
+      ]
+    }
+  ],
+  "filterOptions": {
+    "clients": ["Barclays", "Deutsche Bank", "Goldman Sachs", "JP Morgan", "Morgan Stanley", "Citigroup", "Credit Suisse", "UBS", "HSBC"],
+    "regions": ["North America", "Europe", "Asia Pacific", "Middle East", "Latin America", "Africa"],
+    "industries": ["Healthcare", "Technology", "Real Estate", "Energy", "Consumer Goods", "Retail"]
+  }
+}
