@@ -73,7 +73,7 @@ export const SearchLanding: React.FC<SearchLandingProps> = ({
           </div>
         </form>
 
-        <div className="mt-12 grid grid-cols-3 gap-6 text-center">
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
           <div className="p-6 rounded-xl bg-white/50 backdrop-blur-sm border border-gray-200 hover:shadow-md transition-shadow">
             <div className="text-3xl font-bold text-primary-600 mb-2">10K+</div>
             <div className="text-sm text-gray-600">Presentations</div>

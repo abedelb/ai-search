@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { FeedbackContainer } from '../../Feedback/FeedbackContainer';
 import { SlidePreviewModal } from '../../Preview/SlidePreviewModal';
 import { useSlideSearch } from './useSlideSearch';
-import { useSlideFeedback } from '../../../hooks/useSlideFeedback';
-import { SlideGrid } from './SlideGrid';
+import { useSlideFeedback } from './useSlideFeedback';
+import { SlideList } from './SlideList';
 import { SlideMetadata, FilterOptions, SearchFilters } from '../../../types';
 
 interface SlideSearchProps {
@@ -35,21 +35,15 @@ export const SlideSearch: React.FC<SlideSearchProps> = React.memo(({
     handleThumbDown,
   } = useSlideFeedback();
 
-  const [previewSlide, setPreviewSlide] = useState<{
-    documentId: string;
-    slideNumber: number;
-  } | null>(null);
+  const [previewSlide, setPreviewSlide] = useState<SlideMetadata | null>(null);
 
   const handleSlideClick = (slide: SlideMetadata) => {
-    setPreviewSlide({
-      documentId: slide.documentId,
-      slideNumber: slide.slideNumber,
-    });
+    setPreviewSlide(slide);
   };
 
   return (
     <>
-      <SlideGrid
+      <SlideList
         slides={slides}
         loading={loading}
         thumbUpSlides={thumbUpSlides}
@@ -61,6 +55,14 @@ export const SlideSearch: React.FC<SlideSearchProps> = React.memo(({
         groupByDocument={groupByDocument}
       />
 
+      {previewSlide && (
+        <SlidePreviewModal
+          documentId={previewSlide.documentId}
+          initialSlideNumber={previewSlide.slideNumber}
+          onClose={() => setPreviewSlide(null)}
+        />
+      )}
+
       {feedbackSlideId && (
         <FeedbackContainer
           contextType="slide_search"
@@ -71,14 +73,6 @@ export const SlideSearch: React.FC<SlideSearchProps> = React.memo(({
             slideTitle: slides.find(s => s.id === feedbackSlideId)?.title,
           }}
           onClose={() => setFeedbackSlideId(null)}
-        />
-      )}
-
-      {previewSlide && (
-        <SlidePreviewModal
-          documentId={previewSlide.documentId}
-          initialSlideNumber={previewSlide.slideNumber}
-          onClose={() => setPreviewSlide(null)}
         />
       )}
     </>

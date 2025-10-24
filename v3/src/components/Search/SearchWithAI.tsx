@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Search as SearchIcon, Sparkles, ArrowLeft, Zap, LayoutGrid, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Search as SearchIcon, Sparkles, ArrowLeft, Zap, ChevronLeft, ChevronRight } from 'lucide-react';
 import { FilterPanel } from '../Filter/FilterPanel';
 import { PageContainer } from '../../ui/layout/PageContainer';
 import { SearchModeSelector } from './SearchModeSelector';
@@ -7,8 +7,6 @@ import { SlideSearch } from './SlideSearch';
 import { DocumentSearch } from './DocumentSearch';
 import { SearchLanding } from './SearchLanding';
 import { AIWithSources } from './AIWithSources';
-import { QuickActions } from './QuickActions';
-import { CommandPalette } from './CommandPalette';
 import { searchAPI } from '../../services/api_client';
 import { historyService } from '../../services/historyService';
 import { FilterOptions, SearchFilters } from '../../types';
@@ -56,28 +54,11 @@ export const SearchWithAI: React.FC<SearchWithAIProps> = ({
   const [searchPanelOpen, setSearchPanelOpen] = useState(true);
   const [aiQueryToSubmit, setAiQueryToSubmit] = useState<string>('');
   const [aiTriggerSubmit, setAiTriggerSubmit] = useState(false);
-  const [showQuickActions, setShowQuickActions] = useState(true);
-  const [commandPaletteOpen, setCommandPaletteOpen] = useState(false);
   const searchInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     loadFilterOptions();
   }, []);
-
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === '/' && !commandPaletteOpen && viewMode !== 'landing') {
-        const target = e.target as HTMLElement;
-        if (target.tagName !== 'INPUT' && target.tagName !== 'TEXTAREA') {
-          e.preventDefault();
-          setCommandPaletteOpen(true);
-        }
-      }
-    };
-
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [commandPaletteOpen, viewMode]);
 
   useEffect(() => {
     if (selectedSearchHistory) {
@@ -94,7 +75,7 @@ export const SearchWithAI: React.FC<SearchWithAIProps> = ({
     const handleMouseMove = (e: MouseEvent) => {
       if (isResizingAI) {
         const containerWidth = window.innerWidth;
-        const newAiWidth = ((containerWidth - e.clientX) / containerWidth) * 100;
+        const newAiWidth = (e.clientX / containerWidth) * 100;
         const clampedWidth = Math.min(Math.max(30, newAiWidth), 70);
         setAiPanelWidth(clampedWidth);
       }
@@ -131,7 +112,6 @@ export const SearchWithAI: React.FC<SearchWithAIProps> = ({
     setLoading(true);
     setSubmittedQuery(query);
     setViewMode('search');
-    setShowQuickActions(false);
 
     try {
       await historyService.saveSearchHistory(
@@ -155,7 +135,6 @@ export const SearchWithAI: React.FC<SearchWithAIProps> = ({
     setAiPanelOpen(true);
     setSearchPanelOpen(true);
     setAiSessionId(null);
-    setShowQuickActions(false);
 
     try {
       await historyService.saveSearchHistory(
@@ -182,7 +161,6 @@ export const SearchWithAI: React.FC<SearchWithAIProps> = ({
     setAiPanelOpen(true);
     setSearchPanelOpen(true);
     setAiSessionId(null);
-    setShowQuickActions(false);
 
     try {
       await historyService.saveSearchHistory(
@@ -195,29 +173,6 @@ export const SearchWithAI: React.FC<SearchWithAIProps> = ({
     } finally {
       setLoading(false);
     }
-  };
-
-  const handleQuickAction = (searchQuery: string, aiPrompt: string) => {
-    if (searchQuery) {
-      setQuery(searchQuery);
-      setSubmittedQuery(searchQuery);
-      setViewMode('search');
-      setLoading(true);
-      historyService.saveSearchHistory(searchQuery, searchMode, filters, 0).finally(() => {
-        setLoading(false);
-      });
-    }
-    if (aiPrompt) {
-      setQuery(aiPrompt);
-      setAiQueryToSubmit(aiPrompt);
-      setAiTriggerSubmit(true);
-      setViewMode('both');
-      setAiPanelOpen(true);
-      setSearchPanelOpen(false);
-      setAiSessionId(null);
-      setTimeout(() => setAiTriggerSubmit(false), 100);
-    }
-    setShowQuickActions(false);
   };
 
   const handleBackToLanding = () => {
@@ -305,13 +260,6 @@ export const SearchWithAI: React.FC<SearchWithAIProps> = ({
                 <span className="text-sm font-bold text-white">Search Results</span>
               </div>
             </div>
-            <button
-              onClick={() => setShowQuickActions(!showQuickActions)}
-              className="flex items-center gap-2 px-3 py-1.5 text-gray-600 hover:text-gray-900 hover:bg-white rounded-lg transition-all border border-transparent hover:border-gray-200"
-            >
-              <LayoutGrid className="w-4 h-4" />
-              <span className="text-xs font-medium">Quick Actions</span>
-            </button>
           </div>
 
           <form onSubmit={handleSearch} className="flex flex-col gap-3">
@@ -351,12 +299,8 @@ export const SearchWithAI: React.FC<SearchWithAIProps> = ({
               <SearchModeSelector mode={searchMode} onModeChange={setSearchMode} />
             </div>
 
-            {showQuickActions && (
-              <QuickActions onActionClick={handleQuickAction} />
-            )}
-
             <p className="text-xs text-gray-500 text-center">
-              Click Quick Actions or use AI button to get insights from your search
+              Type <kbd className="px-1.5 py-0.5 bg-gray-100 border border-gray-300 rounded text-xs font-mono">/</kbd> in the AI chat for quick commands
             </p>
           </form>
         </div>
@@ -419,15 +363,6 @@ export const SearchWithAI: React.FC<SearchWithAIProps> = ({
                     </div>
                   </div>
                 </div>
-                <div className="flex items-center gap-2">
-                  <button
-                    onClick={() => setShowQuickActions(!showQuickActions)}
-                    className="flex items-center gap-2 px-3 py-1.5 text-gray-600 hover:text-gray-900 hover:bg-white rounded-lg transition-all border border-transparent hover:border-gray-200"
-                  >
-                    <LayoutGrid className="w-4 h-4" />
-                    <span className="text-xs font-medium">Quick Actions</span>
-                  </button>
-                </div>
               </div>
 
               <form onSubmit={handleSearch} className="flex flex-col gap-3">
@@ -439,18 +374,8 @@ export const SearchWithAI: React.FC<SearchWithAIProps> = ({
                       type="text"
                       value={query}
                       onChange={(e) => setQuery(e.target.value)}
-                      placeholder="Search deals, companies, industries or ask AI... (Press / for commands)"
+                      placeholder="Search deals, companies, industries or ask AI..."
                       className="w-full pl-12 pr-40 py-3.5 text-base border-2 border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white shadow-sm transition-all hover:border-gray-400"
-                    />
-                    <CommandPalette
-                      isOpen={commandPaletteOpen}
-                      onClose={() => setCommandPaletteOpen(false)}
-                      onSelectCommand={(prompt) => {
-                        setQuery(prompt);
-                        setCommandPaletteOpen(false);
-                        handleAskAI(prompt);
-                      }}
-                      searchQuery={query}
                     />
                     <div className="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1">
                       <button
@@ -477,12 +402,8 @@ export const SearchWithAI: React.FC<SearchWithAIProps> = ({
                   <SearchModeSelector mode={searchMode} onModeChange={setSearchMode} />
                 </div>
 
-                {showQuickActions && (
-                  <QuickActions onActionClick={handleQuickAction} />
-                )}
-
                 <p className="text-xs text-gray-500 text-center">
-                  Click Quick Actions or use AI button to get insights from your search
+                  Type <kbd className="px-1.5 py-0.5 bg-gray-100 border border-gray-300 rounded text-xs font-mono">/</kbd> in the AI chat for quick commands
                 </p>
               </form>
             </div>

@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Send, StopCircle, Zap } from 'lucide-react';
+import { Send, StopCircle, Zap, Sparkles } from 'lucide-react';
 import { CommandPalette } from '../Search/CommandPalette';
-import { SmartSuggestions } from '../Search/SmartSuggestions';
 
 interface ChatInputProps {
   input: string;
@@ -111,9 +110,24 @@ export const ChatInput: React.FC<ChatInputProps> = ({
               placeholder="Type / for commands, or ask anything about deals, markets, or clients..."
               disabled={isStreaming}
               rows={1}
-              className="w-full px-6 py-4 bg-white border-2 border-neutral-200 rounded-2xl text-neutral-900 placeholder-neutral-400 focus:outline-none focus:border-primary-500 focus:shadow-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-md resize-none"
+              className="w-full pl-6 pr-14 py-4 bg-white border-2 border-neutral-200 rounded-2xl text-neutral-900 placeholder-neutral-400 focus:outline-none focus:border-primary-500 focus:shadow-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-md resize-none"
               style={{ minHeight: '56px', maxHeight: '200px' }}
             />
+            <button
+              type="button"
+              onClick={() => {
+                setCommandPaletteOpen(!commandPaletteOpen);
+                if (!commandPaletteOpen) {
+                  setLocalValue('/');
+                  setCommandSearch('');
+                }
+              }}
+              disabled={isStreaming}
+              className="absolute right-3 top-1/2 -translate-y-1/2 p-2 text-primary-600 hover:text-primary-700 hover:bg-primary-50 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              title="Quick commands"
+            >
+              <Sparkles className="w-5 h-5" />
+            </button>
             <CommandPalette
               isOpen={commandPaletteOpen}
               onClose={() => {
@@ -149,17 +163,6 @@ export const ChatInput: React.FC<ChatInputProps> = ({
             </button>
           )}
         </div>
-
-        {!commandPaletteOpen && input && input.length >= 3 && (
-          <div className="px-2">
-            <SmartSuggestions
-              query={input}
-              onSuggestionClick={(suggestion) => {
-                onInputChange(suggestion);
-              }}
-            />
-          </div>
-        )}
 
         {!commandPaletteOpen && input.match(/\[.*?\]/) && (
           <div className="flex items-center gap-2 px-4">

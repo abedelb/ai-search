@@ -160,7 +160,7 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({
   let globalIndex = 0;
 
   return (
-    <div className="absolute top-full left-0 right-0 mt-2 z-50">
+    <div className="absolute bottom-full left-0 right-0 mb-2 z-50">
       <div
         ref={paletteRef}
         className="bg-white border border-gray-300 rounded-xl shadow-2xl max-h-96 overflow-hidden"
